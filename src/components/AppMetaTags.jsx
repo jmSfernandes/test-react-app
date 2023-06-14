@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async'
 
 function AppMetaTags({ title, description, image }) {
   return (
-    <Helmet>
+    <Helmet prioritizeSeoTags>
       <title>{title}</title>
       <meta property="og:type" content="article" />
       <meta name="description" content={description} />
