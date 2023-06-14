@@ -3,8 +3,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
-  RouterProvider,
-  Outlet
+  RouterProvider
 } from 'react-router-dom'
 import IndexPage from './IndexPage'
 
