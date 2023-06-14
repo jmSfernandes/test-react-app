@@ -6,16 +6,19 @@ import {
   RouterProvider,
   Outlet
 } from 'react-router-dom'
-import App from '../App'
+import IndexPage from './IndexPage'
 
 import Page1 from "./Page1";
+import Page2 from "./Page2";
 
 function createRouter(appProps) {
   return createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<App appProps={appProps}><Outlet /></App>}>
+      <Route path="/" >
         <Route path="page1" element={<Page1/>} />
         <Route path="page2" element={<Page2/>} />
+        <Route path="page2" element={<Page2/>} />
+        <Route index element={<IndexPage appProps={appProps} />}/>
       </Route>
     )
   );

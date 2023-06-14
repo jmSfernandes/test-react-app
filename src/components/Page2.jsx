@@ -6,7 +6,7 @@ function Page2() {
 
   return (
     <>
-        <AppMetaTags title="Page1" description="Page1 description" />
+        <AppMetaTags title="Page2" description="Page2 description" />
         <h1>Page2</h1>
         <p> Some content</p>
     </>

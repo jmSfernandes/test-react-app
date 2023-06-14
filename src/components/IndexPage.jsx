@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import AppMetaTags from "./components/AppMetaTags";
+import logo from '../logo.svg';
+import '../App.css';
+import AppMetaTags from "./AppMetaTags";
 import React from "react";
 
-function App() {
+function IndexPage() {
   return (
       <>
       <AppMetaTags />
@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/IndexPage.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -27,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default IndexPage;
